@@ -1,0 +1,23 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="monument-gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="0%" stop-color="#a7b2c1" />
+            <stop offset="50%" stop-color="#ffffff" />
+            <stop offset="100%" stop-color="#a7b2c1" />
+        </linearGradient>
+        <style>
+            .title {
+                font-family: 'Inter', sans-serif;
+                font-weight: 900;
+                font-size: 80px;
+                letter-spacing: -0.025em;
+                fill: url(#monument-gradient);
+            }
+        </style>
+    </defs>
+    <rect width="1200" height="630" fill="#0a0a0a" />
+    <g transform="translate(600 315) translate(-280 0)">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="scale(5) translate(10 5)" />
+        <text x="200" y="35" class="title">passkey.im</text>
+    </g>
+</svg>
